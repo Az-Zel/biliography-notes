@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    top: 100%;
+    left: 50%;
+    flex-direction: column;
+    width: 60vw; 
+    height: 132px;
+    justify-content: space-between; /* Space between logo and content */
+    align-items: center;           /* Align items vertically */
+    padding: 20px;  
+    border: 0.1px solid #f5ecdb; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 0px 0px;               /* Add padding around the footer */
+    background-color: #f5ecdb;        /* Example background color */
+    color: #703c0c;   
+                
+  }
+  
+  /* Footer logo */
+  .footer-logo img {
+    height: 104px;                  /* Adjust the logo height */
+    width: auto;                   /* Keep aspect ratio */
+    display: block;                /* Ensures proper alignment */
+  }
+  
+  /* Footer content */
+  .footer-content {
+    text-align: right;             /* Align text to the right */
+    flex-grow: 1;                  /* Push the content to fill available space */
+  }
+  

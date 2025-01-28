@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  "Caudex", serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('/Users/lusinehambardzumyan/Desktop/Practice/Multimedia/Group project/bg.jpg');
+    /* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: scroll;
+    overflow-y: auto; */
+}
+
+.center-container {
+    position: absolute;
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+     /* Adjust height as needed */
+    background-image: url('bgl2.jpg'); /* Replace with your container's background image */
+    /* background-size: cover; */
+    background-position: center;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2%;
+    /* overflow: scroll;
+    overflow-y: auto; */
+}
+
+.corner-image {
+    position: absolute;
+    width: 56px; /* Adjust size as needed */
+    height: 56px;
+    object-fit: cover;
+    border-radius: 0%; /* Optional: Make the images circular */
+    /* overflow-y: auto;
+    overflow: scroll; */
+}
+
+.top-left {
+    top: 0px;
+    left: 0px;
+}
+
+.top-right {
+    top: 0px;
+    right: 0px;
+    transform: rotate(90deg);
+}
+
+.bottom-left {
+    bottom: 0px;
+    left: 0px;
+    transform: rotate(270deg);
+    /* overflow-y: auto;
+    overflow:auto; */
+}
+
+.bottom-right {
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(180deg);
+    /* overflow-y: auto;
+    overflow: scroll; */
+}
+.content
+{
+    position: absolute;
+    width: 60vw;
+    height: 100%;
+    background-color: #decaae;
+    background-position: center;
+    overflow: scroll;
+    overflow-y: auto;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+header {
+    
+    color:  #703c0c; 
+    text-align: center;
+    padding: 1rem;
+    border-radius: 16px 16px 0px 0px;
+}
+
+nav {
+    height: 48px;
+    justify-content: center;
+    background-color:#f5ecdb;
+    border: 0.2px solid #c6b09a; 
+    color: #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    justify-content: center;
+    margin: 0 1rem;
+    padding: 8px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #703c0c;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #cc6b10;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+.about {
+    justify-content: center;
+    max-width: 1200px;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+}
+.about h2 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.about p {
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 8px;
+    
+}
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+}
+
+.article {
+    position: relative;
+    height: 200px;
+    padding: 16px;
+    border: 1px solid#703c0c;
+    border-radius: 4px;
+    background-color: #faf5e9;
+    text-align: center;
+}
+
+.article h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #50371d;
+
+}
+
+.article p {
+    font-size: 0.9em;
+    color: #50371d;
+    ;
+}
+
+.article-title {
+    grid-column: 2 / 3;
+    text-align: center;
+    align-self: center;
+    background-color: #ff6347;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.article a{
+    position: absolute;
+    bottom: 16px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#c99f66;
+    color: #50371d;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    text-decoration: none; /* Ensures the link looks like a button */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;}
+
+ .article a:hover { 
+    background-color: #b4a792;
+    color: #fff;
+}
+article {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} 
+
+.footer {
+    position: relative;
+    display: flex;
+    top: 100%;
+    left: 50%;
+    /* flex-direction: column; */
+    transform: translate(-50%, -50%);
+    width: 60vw; 
+    height: 132px;
+    justify-content: space-between; /* Space between logo and content */
+    align-items: center;           /* Align items vertically */
+    padding: 20px;  
+    border: 0.1px solid #703c0c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 0px 0px;               /* Add padding around the footer */
+    background-color: #f5ecdb;        /* Example background color */
+    color: #703c0c;   
+    /* overflow: scroll;  
+    overflow-y: auto;             Text color */
+  }
+  
+  /* Footer logo */
+  .footer-logo img {
+    height: 104px;                  /* Adjust the logo height */
+    width: auto;                   /* Keep aspect ratio */
+    display: block;                /* Ensures proper alignment */
+  }
+  
+  /* Footer content */
+  .footer-content {
+    text-align: right;             /* Align text to the right */
+    flex-grow: 1;                  /* Push the content to fill available space */
+  }
+  
+
+
