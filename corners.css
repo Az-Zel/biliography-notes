@@ -1,0 +1,30 @@
+.corner-image {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 0%;
+}
+
+.top-left {
+  top: 0px;
+  left: 0px;
+}
+
+.top-right {
+  top: 0px;
+  right: 0px;
+  transform: rotate(90deg);
+}
+
+.bottom-left {
+  bottom: 0px;
+  left: 0px;
+  transform: rotate(270deg);
+}
+
+.bottom-right {
+  bottom: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,530 @@
+main {
+    flex: 1;
+    padding: 1rem;
+  }
+  .about {
+    justify-content: center;
+    max-width: 1200px;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+  .about h1 {
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+  
+  .about h2 {
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  
+  .about p {
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+  .about li {
+    text-align: justify;
+    text-indent: 8px;
+    margin-left: 32px;
+  
+  }
+  .color {
+    justify-content: center;
+    max-width: 1200px;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+  .color table{
+    border: 1px solid #703c0c;
+    border-collapse: collapse;
+  }
+  .color th {
+    border-bottom: 1px solid #703c0c;
+    border-left: 1px solid #703c0c;
+    border-right: 1px solid #703c0c;
+  }
+  
+  .color td {
+    border: 1px solid #703c0c;
+    padding: 2px;
+    padding-right: 88px;
+    font-size: 16px;
+    margin: 32px;
+  }
+  .color tr {
+    border: 1px solid #703c0c;
+  }
+
+  .basan {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+  
+  .basan h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  
+  .basan p {
+    text-indent: 50px;
+    text-align: justify;
+  
+  }
+
+  .basan img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  .maroquin {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+
+  }
+  
+  .maroquin {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .maroquin h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .maroquin p {
+    text-indent: 50px;
+    text-align: justify;
+  }
+
+  .maroquin img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+
+
+  }
+
+  .serpent {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+  .serpent h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .serpent p { 
+    text-align: justify;
+    text-indent: 50px;
+  }
+  .serpent img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  .parchmant {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+
+  .parchmant h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .parchmant p {
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+  .parchmant img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  .chagrin {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+
+  .chagrin h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .chagrin p {
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+  .chagrin img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  .simili {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+
+  .simili h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .simili p {
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+  .simili img { 
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+  }
+
+  .tissu {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+  }
+
+  .tissu h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .tissu p {
+    text-align: justify;
+    text-indent: 50px;
+  }
+   .tissu img {
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
+
+   .tissu-brode {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+   }
+
+   .tissu-brode h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+
+   .tissu-brode p {
+    text-align: justify;
+    text-indent: 50px;
+   }
+
+   .tissu-brode img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
+
+   .tissu-imp {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+   }
+
+   .tissu-imp h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+
+   .tissu-imp p {
+    text-align: justify;
+    text-indent: 50px;
+   }
+
+   .tissu-imp img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
+
+   .toile {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+   }
+
+   .toile h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+
+   .toile p {
+    text-align: justify;
+    text-indent: 50px;
+   }
+
+   .toile img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
+
+   .peau {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+   }
+
+   .peau h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+
+   .peau p {
+    text-align: justify;
+    text-indent: 50px;
+   }
+
+   .peau img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
+
+   .veau {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+   }
+
+   .veau h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+   
+   .veau p {
+    text-align: justify;
+    text-indent: 50px;
+   }
+   
+   .veau img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
+
+   .velin {
+    justify-content: center;
+    max-width: 1200-x;
+    padding: 16px;
+    background-color: #f5ecdb;
+    border: 0.1px solid #703c0c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #703c0c;
+   }
+
+   .velin h2 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+
+   .velin p {
+    text-indent: 50px;
+    text-align: justify;
+   }
+
+   .velin img {
+    max-width: 432px;
+    max-height: 432px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+   }
